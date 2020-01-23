@@ -1,0 +1,11 @@
+---
+title: "Parameterized Report for Shiny"
+output: html_document
+params:
+  text: 'NULL'
+---
+
+# Some title
+
+`r params[["text"]]`
+
